@@ -4,10 +4,10 @@
 https://redir.cache.orange.pl/dai4/org1/vb/104/tvp1hd/manifest.mpd
 
 #EXTINF:-1 tvg-id="TVP2.pl@HD" tvg-logo="https://static.epg.best/pl/TVP2.pl.png" group-title="Polska",TVP2
-https://srv2.nex-byte.top/play/hls/eyJpdiI6InJaeUdmeEczVm1aaFVqV25lNTRFWFE9PSIsInZhbHVlIjoidkFJeVlHbmV1ZDVzUXM0SDI4c2diT0o5QzVkaHlIN3kraUJMZlJLSmNRQUZqUEtndlNzNHMyMTFOSHhuSTJwOVB2TjZZeEhjb3VldEQrOVdzVjZJSyswTGxlZTVTMkRDUjRJUWZqRm9ucHM9IiwibWFjIjoiOWVkYzczZGY0OTMwMzZhNzk0ZTU2ZmZhNzA3MzQ4Y2I5OGRiMTc4ZDFiNTVlMGI0ZTVmYTEzY2VkNjE2NDA4NiIsInRhZyI6IiJ9/3c4856f5-67c1-4aa1-9ff4-466331afd6bc.m3u8?lvtoken=eyJpdiI6IjkxTFVrWFVrT2R1Z3IzelpBTXVkYmc9PSIsInZhbHVlIjoieWlMRVNlMitZUVRmRzBhSm1XZ01DNjRCdVZ4dDl5Z3MrVDRKalc4T0p0NjZ4MEJKYlFZNit0SkhKRjhUQ2orakpueXNYbTJSMWtnL1NnZjg1TFN0NFNxeFgxT1JOcndmNk5zalNrVHN2NWltVkhmQStyblZVdUgyczk2TTdPRFpLT01FaTJPcURwQ3lMWU5aNU54Y043SG1Ibmk0MTZKVUlIK1BLUHFaYmVyU0taejNCb1dSTmhtWUM1aFhITXRWNlYxWG1ULzJhMkwweVBvbGIwV1dWSnphdUtEOGR5V1VYYitMN2NJYnlIRT0iLCJtYWMiOiJlNjViMjNlMmNkZGZjYWEyYWVmZGE3Y2JiN2Y5ZjJhODk0MjliYWM4NmFkMDQ5OGRhMmZmYTUzMTkyYTk5NWM1IiwidGFnIjoiIn0%3D&r=4c31c2&rt=d78eb76ef07b9bfe112c3e94d5ae71c8
+https://cdndai.pl/tvp2hd/index.m3u8
 
 #EXTINF:-1 tvg-id="TVP3Kielce.pl" tvg-logo="https://static.epg.best/pl/TVP3.pl.png" group-title="Polska",TVP3
-
+https://ec01-wmi1.v4.cache.orange.pl/tvp/live/jSHEIFqvmWSpWOQvEJxRKQ/1789471722/video/live/live171/nginx/XEE/156/master.m3u8
 
 #EXTINF:-1 tvg-id="TVPInfo.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVP_info_%282024%29.png" group-title="Polska",TVP Info
 https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8
@@ -16,13 +16,13 @@ https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8
 https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd
 
 #EXTINF:-1 tvg-logo="https://logonoid.com/images/tvn-logo.png" group-title="Polska",TVN
-http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=1563265&extension=ts
+https://n-16-8.dcs.redcdn.pl/livedash/play/playtv/indigo/live/tvn/live.livx
 
 #EXTINF:-1 tvg-id="TVPWorld.pl" tvg-logo="https://i.imgur.com/lB4MgRI.png" group-title="Polska",TVP World
 https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
 
 #EXTINF:-1 tvg-logo="http://staticeu.sweet.tv/images/cache/v2/channel_icon_small/COMe/3939-tvp-hd.png" group-title="Polska",TVP HD
-http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=1563254&extension=ts
+http://crystal.ottc.pro:80/live/xhuljanonebiu/RDPUPJGXA1/3353.ts
 
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon_small/CNoe/3930-tvp-rozrywka-hd.png" group-title="Polska",TVP Rozrywka
 https://tvpi.travny.workers.dev/tvprozrywka.m3u8
@@ -77,11 +77,6 @@ http://78.130.250.2:8023/play/a06h/index.m3u8
 #EXTINF:-1 tvg-id="TV4.pl" tvg-name="18 | TV4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png" group-title="Polska",18 | TV4
 https://cdn-s-playnow-live.pluscdn.pl/ch/1502601/309/dash/e25c2c93/live.mpd
 
-#EXTINF:-1 tvg-id="AXNPoland.pl" tvg-logo="" group-title="Polska",AXN Poland
-#EXTVLCOPT:http-referrer=https://ritsatv.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
-https://polska.hach.workers.dev/14850.m3u8
-
 #EXTINF:-1 tvg-id="PulsTV@HD.pl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8oPlm28zs9_vZdPsh9EJQlnValxK7a3_mwmvl1pmN3eIBYk3hz6MrGg&s=10" group-title="Polska",Puls TV
 https://lowa8026-cmyk.github.io/PL/PULSHD.php.m3u8
 
@@ -121,12 +116,6 @@ https://amg00735-amg00735c57-rakuten-de-10677.playouts.now.amagi.tv/ts-eu-w1-n2/
 #EXTINF:-1 tvg-id="TelewizjaBiznesowa.pl" tvg-name="26 | Telewizja Biznesowa" tvg-logo="https://i.imgur.com/XC7i7ZL.png" group-title="Polska",26 | Telewizja Biznesowa
 https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/logo/FunBoxUHD-logo.png" group-title="Polska",Funbox&FUN
-https://dash2.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://ritsatv.ru/files/poster/medium/901616.webp" group-title="Polska",Toya TV
-https://cdn-1-go.toya.net.pl/live/hdVY-8WBAduKAfswhQuByA/1788701542/001_toyahd_hls/index.m3u8
-
 #EXTINF:-1 tvg-id="AntenaHD.pl" tvg-name="28 | Antena HD" tvg-logo="https://i.imgur.com/obwYQZC.png" group-title="Polska",28 | Antena HD
 http://78.130.250.2:8023/play/a03o/index.m3u8
 
@@ -136,15 +125,25 @@ https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1 tvg-id="4FunKids.pl" tvg-name="" tvg-logo="https://kotmruk.neocities.org/bachory.png" group-title="Muzyka",4FunTV Bachory
 https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon/CNEe/3921-tv-puls-muzyka-hd.png" group-title="Muzyka",TV Puls Muzyka
-#EXTVLCOPT:http-referrer=https://sweet.tv
-#EXTVLCOPT:http-origin=https://sweet.tv
-#EXTVLCOPT:http-user-agent= Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sweet.tv
-https://stitch-eu.fastad.pro/stream.m3u8?o=aHR0cHM6Ly9obHMzZXUuc3dlZXQudHYvc3RyZWFtL3lhNHg5bnQ3am56OGU1NXljaGVud2hueHl2N3RrdjNzYXQ4bnpxamY1NXN6eW1jdmkzand5cmh4cHBmcW1md3l2MmdhcXl3YnUzajd4d2V5azN0djY0OWhwdmVtNzd0aDhjNHRnYXJkNHF2eGZjbmJwazZuYnp5bnE5cXh6MzRrY21xaXN2aHp2eDhmdjR1cW43OG50ODV2M3I4NWhoMmNwNmNzZzZiaHhqcHNyNXVtcTI9PT09PT0=&u=5638688363039208785&session=18341726660453832024&variant=2&c=3921&dt=2&p=17&e=0&aid=&sp=0
+#EXTINF:-1 tvg-id="MusicBoxClassic.cz@SD" tvg-logo="https://musicboxclassic.com/music_box_classic_logo.png" group-title="Muzyka" ,Music Box Classic
+http://88.212.15.19/live/mb_classic/index.m3u8
+
+#EXTINF:-1 tvg-id="MusicBoxDance.cz@SD" tvg-logo="https://musicboxdance.com/music_box_dance_logo.png" group-title="Muzyka" ,Music Box Dance
+http://88.212.15.19/live/mb_dance/index.m3u8
+
+#EXTINF:-1 tvg-id="MusicBoxHits.cz@SD" tvg-logo="https://musicboxhits.com/music_box_hits_logo.png" group-title="Muzyka" ,Music Box Hits
+http://88.212.15.19/live/mb_hits/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/360_TuneBox_%28red%29.svg" group-title="Muzyka",360 Tunebox
 https://dash2.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.atomictv.ro/wp-content/uploads/2021/10/Atomic_TV.png" group-title="Muzyka",Atomic TV
+https://atomic.streamnet.ro/atomictv.m3u8
+
+#EXTINF:-1 group-title="Muzyka" tvg-id="MusicBoxPolska.pl@Ukraine",Music Box Polska (feed z Ukrainy)
+#EXTVLCOPT:http-referrer=http://live.tvstitch.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMS5keXZ5YXBwLmNvbS9NdXNpYy1Cb3gvdHJhY2tzLXYxYTEvbW9uby50cy5tM3U4P3Rva2VuPWV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqYUdGdWJtVnNYMmxrSWpvMU55d2lZMmhoYm01bGJGOXVZVzFsSWpvaVRYVnphV01nUW05NElpd2lhWEFpT2lJeE56Z3VNVE0yTGpReUxqSXlNQ0lzSW1OdmRXNTBjbmtpT2lKVmEzSmhhVzVsSWl3aWRYTmxjbDlwWkNJNk56UXdOeXdpZFhObGNsOXdhRzl1WlNJNklpc3pPREE1TXpBNU5qYzBNak1pTENKMWMyVnlYM0p2YkdWeklqcGJJbU5zYVdWdWRDSmRMQ0p3Y205bWFXeGxYMmxrSWpvMk5EY3hMQ0p6WlhOemFXOXVYMmxrSWpvaVpEQXdPVFppWmpndE1qTmxOUzAwWldVMkxXSmxNelV0Wmpnd09ETTVaV1k1WkRnMElpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRGd3ZOVE0zTGpNMklDaExTRlJOVEN3Z2JHbHJaU0JIWldOcmJ5a2dRMmh5YjIxbFhDOHhOVEl1TUM0d0xqQWdVMkZtWVhKcFhDODFNemN1TXpZaUxDSmxlSEFpT2pFM09EZ3hPRFV4TmpkOS5nYUo1WGRxTjJ3djY2SnFxYldnX0dGUzY3V3lZVEVOc0JQa3VpcU1sNTVN&master=57
 
 #EXTINF:-1 tvg-id="Muzyka" tvg-logo="https://images.dlawas.info/cache/1a88fa055281e70f14e1582838c9bd89.webp" group-title="Muzyka",VIVA TV RU
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
@@ -257,25 +256,33 @@ https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KCPHba2.png" tvg-id="SRF1.ch" group-title="Europa",SRF 1
 http://51.91.73.99:25461/sweden/PM66f7Y43H/25849
 
+#EXTINF:-1 tvg-logo="https://viamedia.tv/wp-content/uploads/2020/01/spi-05.png" group-title="Polska",Fastbox&FUN UK
+https://dash2.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/FILMBOX%2B_Love_%26_Crime.svg/500px-FILMBOX%2B_Love_%26_Crime.svg.png" group-title="Europa",FILMBOX Love&Crime Adria (?)
 #EXTVLCOPT:http-referrer=https://ritsatv.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://webtvstream.bhtelecom.ba/hls7/filmbox_stars_1200.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.skylink.cz/media/eicku5co/filmboxplus-logos_2026_fbplus-emotion.png?format=webp&quality=60&v=1dcf8cf43d8c270" group-title="Europa",FILMBOX Emotion Slovakia (?)
+#EXTINF:-1 tvg-logo="https://www.skylink.cz/media/eicku5co/filmboxplus-logos_2026_fbplus-emotion.png?format=webp&quality=60&v=1dcf8cf43d8c270" group-title="Europa",FILMBOX Emotion Adria (?)
 #EXTVLCOPT:http-referrer=https://ritsatv.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://webtvstream.bhtelecom.ba/hls7/filmbox_extra_1200.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn0.metroport.pl/epg_logos/channel_logo_178_large.png" group-title="Europa",FILMBOX Arthouse UK
+#EXTINF:-1 tvg-logo="https://icanlive.tv/pictures/filmbox-festival_1784419220.png" group-title="Europa",FILMBOX Festival UK
 #EXTVLCOPT:http-referrer=https://ritsatv.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://webtvstream.bhtelecom.ba/hls9/filmbox_arthouse_1200.m3u8
 
-#EXTINF:-1 tvg-logo=https://cdn.a1.rs/a1website/img/a1/xploreTv/tvlogotipi/normal/filmbox-hits.png"" group-title="Europa",FILMBOX Hits Adria
+#EXTINF:-1 tvg-logo="https://cdn.a1.rs/a1website/img/a1/xploreTv/tvlogotipi/normal/filmbox-hits.png" group-title="Europa",FILMBOX Hits Adria
 #EXTVLCOPT:http-referrer=https://ritsatv.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://webtvstream.bhtelecom.ba/hls7/filmbox_premium_1200.m3u8
+
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Polska",Filmbox+ One Czechia
+#EXTVLCOPT:http-referrer=https://ritsatv.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+http://88.212.15.19/live/test_filmbox/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZZbuTv7.png" tvg-id="DiscoPoloMusic.pl" group-title="Muzyka",Disco Polo Music
 
@@ -333,6 +340,15 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/pl
 
 #EXTINF:-1 tvg-id="ArirangUN.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title="Azja",Arirang TV UN
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://medialogic.com.pk/tam/wp-content/uploads/2014/05/jalwa-logo.jpg" group-title="Azja",Jalwa
+https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/live/135M/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0b/RyongnamsanTV_DPRK.png" group-title="Azja" tvg-id="RyongnamsanTelevision.kp@SD",Ryongnamsan Television SD 
+https://kctv.koryofront.org/stream/ryongnamsan/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%EC%B2%B4%EC%9C%A1%ED%85%94%EB%A0%88%EB%B9%84%EC%A3%A4.svg/1920px-%EC%B2%B4%EC%9C%A1%ED%85%94%EB%A0%88%EB%B9%84%EC%A3%A4.svg.png" group-title="Azja" tvg-id="SportsTelevision.kp@HD",Cheyug Sports TV
+https://kctv.koryofront.org/stream/sports/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2025/06/KiKA-Logo.png" group-title="Europa",Germany | KiKA
 https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
@@ -392,17 +408,35 @@ https://5d84fe297ee2b.streamlock.net/wegleszyn/wegleszyn.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.brandfetch.io/id2KMIqg9C/w/839/h/839/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1745680923249" group-title="Przyroda",Bociany na żywo (Przygodzice)
 https://1724745499.rsc.cdn77.org/live/przygodzice5.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn6.aptoide.com/imgs/7/1/4/7143a01a27a38a54d34aed4d9d795cad_icon.png" group-title="Przyroda",Chomik na żywo
+http://kotmruk.ddns.net:8080/video
+
+#EXTINF:-1 group-title="Przyroda",Kielce - Rynek
+https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.stream/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://kotmruk.neocities.org/szczur.ts" group-title="Polska",Viasat Classic Explore
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/pl/TVPABC.pl.png" group-title="Dla dzieci",TVP ABC
-http://91.246.72.88:8000/play/a00r/index.m3u8
+https://ec01-wmi1.v4.cache.orange.pl/tvp/live/RJ84eipGHrzKdygVbEvsTw/1789480299/video/live/live171/nginx/ABC/156/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://kotmruk.neocities.org/tvpabc2.png" group-title="Dla dzieci",TVP ABC 2
 https://tvp2.cache.orange.pl/tvp/live/5W3aCip1JtgqIlPsnmfuoQ/1783542444/video/live/live249/bpk-tv/TVP_ABC_2/156/master.m3u8
 
 #EXTINF:-1 tvg-logo="",MiniMini+
 http://178.219.128.68:64889/MINIHD
+
+#EXTINF:-1 tvg-id="ducktv.sk" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Duck_TV_Logo.webp/250px-Duck_TV_Logo.webp" group-title="Dla dzieci",DuckTV Europe
+https://mmm-dk.otteravision.com/DexaYJdJXkLqFxTK_DuckTVHDSAMS/DuckTVHDSAMS.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Dla dzieci" tvg-id="DisneyXD.pl@SD",Disney XD (576p)
+http://185.227.34.179:8080/disney-xd/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Dla dzieci" tvg-id="DisneyChannel.pl@HD",Disney Channel HD (1080p)
+http://185.227.34.179:8080/disney-channel-hd/index.m3u8
+
+#EXTINF:-1 group-title="Dla dzieci" tvg-logo="https://static.wikia.nocookie.net/wiki-dubbia/images/1/17/Minimax_old_logo.png" tvg-id="MinimaxCEE.cz@SD",Minimax
+http://88.212.15.19/live/test_minimax/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://duckduckgo.com/?q=BabyTV%20Television%20channel%20for%20babies%2C%20toddlers%2C%20and%20parents&ia=images&iax=images" group-title="Dla dzieci",BabyTV
 http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=227384&extension=ts
@@ -440,17 +474,8 @@ https://adpnetworkhd-cmd.github.io/iptv/EskaTVExtra.m3u8
 #EXTINF:-1 tvg-id="PoloTV.pl" tvg-logo="https://e7.pngegg.com/pngimages/17/84/png-clipart-poland-polo-tv-disco-polo-television-music-tv-error-television-text.png" group-title="Muzyka",Polo TV
 http://91.246.72.88:8000/play/a004/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn6.aptoide.com/imgs/7/1/4/7143a01a27a38a54d34aed4d9d795cad_icon.png" group-title="Przyroda",Chomik na żywo
-http://kotmruk.ddns.net:8080/video
-
-#EXTINF:-1 group-title="Przyroda",Kielce - Rynek
-https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://latestlogo.com/wp-content/uploads/2024/06/jimjam-2018.png" group-title="Europa" tvg-id="JimJamEurope.uk@SD",JimJam Europe (576p)
-http://158.160.149.81:8080/269/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GjppUlg.png" group-title="Polska" tvg-id="PolsatJimJam.pl",JimJam Polsat
-http://81.15.109.89:8001/play/PolsatJimJam
+http://185.227.34.179:8080/jimjam/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/wiggles/images/e/ec/ABCKids.png/revision/latest?cb=20181223132753" group-title="Oceania" tvg-id="ABCKids.au@Sydney",ABC Kids
 https://c.mjh.nz/abc-kids.m3u8
@@ -494,3 +519,8 @@ https://amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctop
 
 #EXTINF:-1 group-title="Eksperymentalne",Kanał Informacyjny dla ŻulSat
 https://kotmruk.neocities.org/zulsat_link/stream.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Polska",MTV Polska
+#EXTVLCOPT:http-referrer=https://ritsatv.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
+https://polska.hach.workers.dev/4729.m3u8
