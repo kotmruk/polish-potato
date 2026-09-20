@@ -4,16 +4,17 @@
 https://redir.cache.orange.pl/dai4/org1/vb/104/tvp1hd/manifest.mpd
 
 #EXTINF:-1 tvg-id="TVP2.pl@HD" tvg-logo="https://static.epg.best/pl/TVP2.pl.png" group-title="Polska",TVP2
-https://cdndai.pl/tvp2hd/index.m3u8
 
 #EXTINF:-1 tvg-id="TVP3Kielce.pl" tvg-logo="https://static.epg.best/pl/TVP3.pl.png" group-title="Polska",TVP3
-https://ec01-wmi1.v4.cache.orange.pl/tvp/live/jSHEIFqvmWSpWOQvEJxRKQ/1789471722/video/live/live171/nginx/XEE/156/master.m3u8
 
 #EXTINF:-1 tvg-id="TVPInfo.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/TVP_info_%282024%29.png" group-title="Polska",TVP Info
 https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Polsat.pl" tvg-logo="https://i.imgur.com/xff6zGN.png" group-title="Polska",Polsat
 https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd
+
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/polsat-1-20209345.logowik.com.webp" tvg-id="Polsat1.pl@SD",Polsat 1
+https://cdn-s-lb2.pluscdn.pl/lv/1517829/348/hls/816eca15/masterlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://logonoid.com/images/tvn-logo.png" group-title="Polska",TVN
 https://n-16-8.dcs.redcdn.pl/livedash/play/playtv/indigo/live/tvn/live.livx
@@ -28,7 +29,6 @@ http://crystal.ottc.pro:80/live/xhuljanonebiu/RDPUPJGXA1/3353.ts
 https://tvpi.travny.workers.dev/tvprozrywka.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/TVN_24_HD_Logo.png" group-title="Polska",TVN 24
-http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=227282&extension=ts
 
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon_small/COIe/3938-tvp-seriale-hd.png" group-title="Polska",TVP Seriale
 
@@ -38,7 +38,6 @@ http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=227282&extens
 https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Polska",Polsat 2
-https://shouurvki7jtfax.ngolpdkyoctjcddxshli469r.org/sunshine/BPimuL03fZV--EJ6fVskuqz2QMBia8VKtJhErVMcucNOPwXYLaWIM7ELdAN_JyfYKO9LFu6YaKVOdUB_nyqkTumMKzw9c8phCNV8BtovgaFAlD_kZ-eMLCM7ifgSrRBvZXvDUGrHe--hwi-2iNHF1QxAthahYC_NW-rVInxcxg7q3OzWf3leVb3A82NUw91MqUBZOcTgLbbbnu_ez7kM51D6UNez-xVlt-JqOvF0YWlXrGFirua4bKaxf7IkZhlr/hls/index.m3u8
 
 #EXTINF:-1 tvg-id="NowaTV.pl" tvg-logo="https://krupapiotr.pl/wp-content/uploads/2016/07/nowa-tv-logo-czar.jpg" group-title="Polska",Nowa TV
 https://adpnetworkhd-cmd.github.io/iptv/NowaTV.m3u8
@@ -109,6 +108,21 @@ https://lb2-e3-20.pluscdn.pl/ch/1523532/366/dash/2cf383bb/live.mpd
 
 #EXTINF:-1 tvg-id="FokusTV.pl@SD" tvg-logo="https://i.imgur.com/emWWd5k.png" group-title="Polska",Fokus TV (1080p)
 http://91.246.72.88:8000/play/a008/index.m3u8
+
+#EXTINF:-1 tvg-id="iTVN.pl" tvg-logo="http://logo.ottcst.info/ITVN.png" group-title="Europa",iTVN
+http://crystal.ottc.pro:80/  test   xhuljanonebiu/RDPUPJGXA1/429574
+
+#EXTINF:-1 tvg-id="iTVNExtra.pl" tvg-logo="http://logo.ottcst.info/ITVNXTRA.png" group-title="Europa",iTVN Extra
+http://crystal.ottc.pro:80/  test   xhuljanonebiu/RDPUPJGXA1/574446
+
+#EXTINF:-1 tvg-id="PolsatPlay.pl" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/6/66/Polsat_Play.png/revision/latest?cb=20141203064351&path-prefix=ru" group-title="Polska",Polsat Play
+http://neosfpoo.top:8080/74173747597177/7vfxky4rjx3j/10212
+
+#EXTINF:-1 tvg-id="PolsatRodzina.pl" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/2/20/Polsat_Rodzina.svg/" group-title="Polska",Polsat Rodzina
+http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10213.m3u8?token=Q0FaWEpZFFsXAw1VAwVQDgYCB1BQVFtRV1AJUVYHBwALUQMPWFQFBAQVGEZGFUdTUl9qWwIVAlBSAQFXGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=
+
+#EXTINF:-1 tvg-id="PolsatGames.pl" tvg-logo="https://images.seeklogo.com/logo-png/61/1/polsat-games-logo-png_seeklogo-612555.png" group-title="Polska",Polsat Games
+http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10209.m3u8?token=Q0FaWEpZFFsXAwNWUFMEBwJXAwMDVlpTBgVTVwEHAQNeWgoACVVXVQAVGEZGFUdTUl9qWwIVAlBSAQBdGENHQ10RbVBdEwxDAgANUAJVFxoRRlxfAxUCUU4RQA1QQwheTQ9eFRtUThVQRVoFWT5RU0VbVldEDVYUDl8cRlsPbVRdDlNXXRMMQwQVGEZcEkUUCVxAXgobGgMLR0IFQAQQClYWXlUVE1UOQFlAFkxDDxRjfhceRFJAFQddQw1bDxAKGg4BTAETGkNcRGsWUBJBRFZTWFcUFQJDUhEcRlkASm9bDFxXXFJCCFpZR0YPQwQUHxBYXQheTA4QbEANUEMIXk0PXkQ=
 
 #EXTINF:-1 group-title="Polska" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/0ba18c3b-b319-4ea9-bdad-dfba2c348ce3-width200-quality90.jpeg", WeDoTV Auta (144p)
 https://amg00735-amg00735c57-rakuten-de-10677.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00735-videosolutionsagfast-wedotvauta-rakutende/cb553d1e726c678e9cd43d67d3ef42a0df2416fc087a8d6933fb4b926bc10f41f4e2a581b212bb785d9914ce1c553f080132c0099c3a0bc6da73b6512d6c6021c9c3ed64d89d1b17b2c8797368e62c4119e10f11d93b53309dbb1858dd68ec2b005ebb0d6f577fdcec0fac6b5ac58402967a7c82fc8e68312f5e56cd543fa29a7c9b1f0f5d65e94693d1605aa34f1abbd31c9df63d81b2a13ebedf52bbc33eabe7b5c98c50d7acad5b3ef4ac466f6f236f8a816ed1b835750fce1b5bcd2552213354fcac85f74f76ee2d250ca9b29fe635ad50a6fd540358406cb1d865a44989e5902bf9691a80e7d6fa575336b4c1145626b2f6a19dc1d352d742d6adf3d47f7098b94136178925f92c2f2a9ff4cf54d5954ed69b2c87bd651863808353c1cce6daa1e0c40abb20c9ccfbd76c16172d5442a054b09f6bd4319229fc975d712e202ecabb5bc094d65734102dd7d6249b797c8cd5808dd01935b0163c5fe665cb52062ced3a686eea24fdda11638b2f06807751d65737894ef9f81cfda8d5e00c58e48e91a29ebd7f4ba5b486210eed8f29b009af85251fe39768f8/106/426x240_611520/index.m3u8
@@ -471,8 +485,8 @@ https://lowa8026-cmyk.github.io/PL/eskatv.php.m3u8
 #EXTINF:-1 tvg-id="eskatvextra.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Eska_TV_Extra_-_Nowy_Kana%C5%82_zast%C4%85pi%C5%82_Eska_TV.png" group-title="Muzyka",Eska TV Extra (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/EskaTVExtra.m3u8
 
-#EXTINF:-1 tvg-id="PoloTV.pl" tvg-logo="https://e7.pngegg.com/pngimages/17/84/png-clipart-poland-polo-tv-disco-polo-television-music-tv-error-television-text.png" group-title="Muzyka",Polo TV
-http://91.246.72.88:8000/play/a004/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.spreekbuis.nl/wp-content/uploads/2020/04/tmf-1024x853.png" group-title="Muzyka",TMF 
+https://live20.bozztv.com/akamaissh101/ssh101/tmfrus/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GjppUlg.png" group-title="Polska" tvg-id="PolsatJimJam.pl",JimJam Polsat
 http://185.227.34.179:8080/jimjam/index.m3u8
@@ -504,13 +518,6 @@ https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 group-title="Eksperymentalne" tvg-logo="https://as2.ftcdn.net/v2/jpg/02/51/83/21/1000_F_251832178_zqZLNuHGEtnthAY9ZzvHbOqHrKWLZbGP.jpg" tvg-id="TOPBarca.pl@SD",TOP Barca (1080p)
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon_small/COoe/3946-tvs-kulinaria-hd.png" group-title="Polska",TVS Kulinaria
-#EXTVLCOPT:http-referrer=https://sweet.tv
-#EXTVLCOPT:http-origin=https://sweet.tv
-#EXTVLCOPT:http-user-agent= Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sweet.tv
-https://stitch-eu.fastad.pro/stream.m3u8?o=aHR0cHM6Ly9obHM2ZXUuc3dlZXQudHYvc3RyZWFtL2d1bTN2NTJ3NXpzbmJucnBiejN0aGJicW52a2Rncm40d2l1cXA5M3d2dmIyOXA2NG5hZnE5eXo2eHd6eDVrenhmczl6ZHlidGliY3o2ZjdzZXU5NW1wNTVwZ2hnNnhtM2RneHlncTRrazdqeXZwOGNpZnBqNXQybW5ucW04YTg5NGt1anhlcDRzNzhidnV2MnI3bW53cXBqM2ptM3NiNHloaTZwd2Jnd3liaGtwcjZoejg4cz09PT0=&u=5638688363039208785&session=1147078668811356513&variant=2&c=3946&dt=2&p=17&e=0&aid=&sp=0
-
 #EXTINF:-1 group-title="Azja" tvg-logo="https://www.labiennaledelyon.com/assets/w424-q80-p1/373f8247/africanews.png" tvg-id="AfricanewsEnglish.fr@Poland",Africanews (720p)
 https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8
 
@@ -519,8 +526,3 @@ https://amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctop
 
 #EXTINF:-1 group-title="Eksperymentalne",Kanał Informacyjny dla ŻulSat
 https://kotmruk.neocities.org/zulsat_link/stream.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Polska",MTV Polska
-#EXTVLCOPT:http-referrer=https://ritsatv.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
-https://polska.hach.workers.dev/4729.m3u8
