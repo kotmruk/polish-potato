@@ -28,8 +28,6 @@ https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_TVPHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon_small/CNoe/3930-tvp-rozrywka-hd.png" group-title="Polska",TVP Rozrywka
 http://185.227.34.179:8080/tvp-rozrywka/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/TVN_24_HD_Logo.png" group-title="Polska",TVN 24
-
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_icon_small/COIe/3938-tvp-seriale-hd.png" group-title="Polska",TVP Seriale
 https://cdn.telecloud.tv/CH16933/mono.m3u8
 
