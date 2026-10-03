@@ -1,1 +1,1 @@
-To jest awaryjna strona jeśli tamta wybuchnie znowu.
+Neocities zablokowało m3u więc no dupa
