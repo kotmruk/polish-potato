@@ -1,0 +1,12 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://logonoid.com/images/tvn-logo.png" group-title="Polska",TVN
+https://cdn.telecloud.tv/CH15720/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/TVN_24_HD_Logo.png" group-title="Polska",TVN 24
+https://cdn.telecloud.tv/CH15033/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.telewizjaonline.pl/wp-content/uploads/2022/11/tvn24bishd-online.png" group-title="Polska",TVN 24 BiS (tylko na pc)
+https://cdn.telecloud.tv/CH5219/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmpeXSik3cm8bsT7dYTK5bCfjRdiz3GnDDRAtmEhw3DQ&s=10" group-title="Polska",TVN7
+https://cdn.telecloud.tv/CH15716/index.m3u8
