@@ -488,10 +488,10 @@ https://vs2129.vcdn.biz/ef188d661aa259220a9f4a460689e132_megogo/live/hls/b/700_2
 https://vs2131.vcdn.biz/ef759b1c8f545193b6d91bff3ce4f664_mgg/vod/hls/b/450_900_1350_1500_2000_5000/u_sid/0/u_mch/18503926/o/151966901/rsid/41bc4fa9-e7be-482d-b025-39eccb8b110e/u_uid/0/u_vod/3/u_device/cms_html5/u_devicekey/_site/u_did/web_9BXnI0xvz9WIgCL7q5kCBmwOjyYCWBo3/a/0/type.amlst/media-sid9100914700549650764-b5000000_48785531_2422901_n21.ts
 
 #EXTINF:-1 tvg-id="eska.tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdQ78ILUiXaPKAsMra0OwPtPWyQaCPvWq9g&s" group-title="Muzyka",Eska TV [?] (1080p)
-https://lowa8026-cmyk.github.io/PL/eskatv.php.m3u8
+http://92.114.85.87:8018/play/a00h/index.m3u8
 
 #EXTINF:-1 tvg-id="eskatvextra.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Eska_TV_Extra_-_Nowy_Kana%C5%82_zast%C4%85pi%C5%82_Eska_TV.png" group-title="Muzyka",Eska TV Extra (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/EskaTVExtra.m3u8
+http://92.114.85.87:8016/play/a008/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.spreekbuis.nl/wp-content/uploads/2020/04/tmf-1024x853.png" group-title="Muzyka",TMF 
 https://live20.bozztv.com/akamaissh101/ssh101/tmfrus/playlist.m3u8
