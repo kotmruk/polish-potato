@@ -3,7 +3,7 @@
 #EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="Polska",TVP1
 #EXTVLCOPT:http-referrer=https://telewizjaonline.pl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
-https://cdndai.pl/tvp3kielcesd/index.m3u8
+https://cdndai.pl/tvp1hd/index.m3u8
 
 #EXTINF:-1 tvg-id="TVP2.pl@HD" tvg-logo="https://static.epg.best/pl/TVP2.pl.png" group-title="Polska",TVP2
 #EXTVLCOPT:http-referrer=https://telewizjaonline.pl
