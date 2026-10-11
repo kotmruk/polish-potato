@@ -1,0 +1,289 @@
+#EXTM3U
+#EXTINF:-1 group-title="Music",Eska Rock TV
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:2909:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Music",Eska TV Extra
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:290D:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Music",Nuta Gold
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:140E:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Music",SID 140F 4
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:140F:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Music",Disco Polo Music
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C8C:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Music",TVS
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1403:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Music",Kino Polska Muzyka
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3785:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Music",Szlagier TV
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1411:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Music",MTV
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:F:1964:13E:820000:0:0:0:
+#EXTINF:-1 group-title="News",tvn24BiS
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:10EA:3E8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="News",Newsmax Polska
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:1C8A:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="News",Polsat News Polityka
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CBF:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 1138 13
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1138:2AF8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3ADB 14
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3ADB:514:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID C22 15
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:C22:1E78:71:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",TVP 3
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:13F7:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3A9E 17
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3A9E:514:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3D66 18
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3D66:2C88:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 1139 19
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1139:2AF8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3D67 20
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3D67:2C88:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 1142 21
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1142:2AF8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3D5F 22
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3D5F:2C88:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 1412 23
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1412:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 1413 24
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1413:5DC:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVP",SID 3ABD 25
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3ABD:514:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",SID C37 26
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:C37:1E78:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Polsat Seriale
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CAC:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Polsat X
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C8B:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Comedy Central Extra Polsat
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:10:1964:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Polsat Sport 2
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:C24:1E78:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",SID 2911 31
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:2911:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",SID 2913 32
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:2913:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Viasat Polsat Explore
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CCA:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",Viasat Polsat History
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:C20:1E78:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",SID 1CB7 35
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CB7:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Polsat",SID 1C8F 36
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C8F:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DD2 37
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DD2:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",tvn24
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DED:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DD3 39
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DD3:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DEB 40
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DEB:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DD6 41
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DD6:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DCD 42
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DCD:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DEA 43
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DEA:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DCE 44
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DCE:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DCF 45
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DCF:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DD0 46
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DD0:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="TVN",SID 3DD1 47
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:3DD1:640:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 423C 48
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:423C:3DB8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 423B 49
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:423B:3DB8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CBE 50
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CBE:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CA4 51
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CA4:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CA2 52
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CA2:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CA8 53
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CA8:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CA5 54
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CA5:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CA6 55
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CA6:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1C8D 56
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C8D:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 378E 57
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:378E:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 378C 58
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:378C:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 3790 59
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3790:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 3791 60
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:3791:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 378D 61
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:378D:44C:13E:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1C97 62
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C97:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1C89 63
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C89:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1C88 64
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1C88:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 2914 65
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:2914:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CAB 66
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CAB:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 290C 67
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:290C:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 290B 68
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:290B:1EDC:71:820000:0:0:0:
+#EXTINF:-1 group-title="Genaral",SID 1CAA 69
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:1:1CAA:1CE8:71:820000:0:0:0:
+#EXTINF:-1 group-title="xxx",SID 1140 70
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:16:1140:2AF8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="xxx",SID 113F 71
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:113F:2AF8:13E:820000:0:0:0:
+#EXTINF:-1 group-title="xxx",SID 1141 72
+#EXTVLCOPT:http-user-agent=Enigma2
+#EXTVLCOPT:network-caching=5000
+http://91.228.35.249:8001/1:0:19:1141:2AF8:13E:820000:0:0:0:
