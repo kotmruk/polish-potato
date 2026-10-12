@@ -206,9 +206,6 @@ http://92.114.85.87:8010/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="ViasatEpicDrama.pl" tvg-logo="https://d-pa.ppstatic.pl/frames/pa-def/d2/80/il20260519_966293161_xsmall.jpg" group-title="Polska",Viasat Epic Drama
 http://92.114.85.87:8018/play/a00d/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2022/09/VH1-Logo-2013.png" group-title="Muzyka",VH1 USA
-http://193.254.245.162/VH1/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Europa",Fairground TV
 https://dbrb49pjoymg4.cloudfront.net/10001/99951590/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951590&ads.xumo_streamId=99951590&ads.channelId=99951590&ads.channelName=FairgroundRevshare&ads.caid=FairgroundRevshare&ads.csid=xumo_desktopweb_FairgroundRevshare_ssai&ads.genre=television&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=4410&ads.xumo_contentName=FairgroundRevshare&ads.xumo_providerId=4410&ads.xumo_providerName=FairgroundRevshare&ads.asnw=&ads.xumo_channelName=FairgroundRevshare&ads._fw_h_x_country=US&ads._fw_ifa_type=dpid&ads._fw_did=e6645180-80db-f297-f378-d8272deb7560&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads._fw_is_lat=1&ads._fw_us_privacy=1YNN&ads._fw_content_category=IAB1-7&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appVersion=2.29.0&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.appName=xumo&ads.site_name=XumoPlay&ads.site_page=play.xumo.com
 
@@ -277,6 +274,9 @@ https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KCPHba2.png" tvg-id="SRF1.ch" group-title="Europa",SRF 1
 http://51.91.73.99:25461/sweden/PM66f7Y43H/25849
+
+#EXTINF:-1 tvg-id="TVPWilno.pl" tvg-logo="https://duckduckgo.com/i/bb26032ab8f760bf.png" group-title="Europa",TVP Wilno
+http://78.62.9.23:55555/TVP%20Wilno%20HD
 
 #EXTINF:-1 tvg-logo="https://viamedia.tv/wp-content/uploads/2020/01/spi-05.png" group-title="Polska",Fastbox&FUN
 https://dash2.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
