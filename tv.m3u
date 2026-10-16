@@ -147,13 +147,16 @@ https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1 tvg-id="4FunKids.pl" tvg-logo="https://kotmruk.neocities.org/bachory.png" group-title="Muzyka",4FunTV Bachory
 https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
 
-#EXTINF:-1 tvg-id="MusicBoxClassic.cz@SD" tvg-logo="https://musicboxclassic.com/music_box_classic_logo.png" group-title="Muzyka" ,Music Box Classic
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/amatorskie%20radio%20menela%20logo.png" radio=true group-title="Muzyka",Amatorskie Radio Menela
+http://ownaradio.com:27580/amatorskie_radio_menela
+
+#EXTINF:-1 tvg-id="MusicBoxClassic.cz@SD" tvg-logo="https://musicboxclassic.com/music_box_classic_logo.png" group-title="Muzyka",Music Box Classic
 http://88.212.15.19/live/mb_classic/index.m3u8
 
-#EXTINF:-1 tvg-id="MusicBoxDance.cz@SD" tvg-logo="https://musicboxdance.com/music_box_dance_logo.png" group-title="Muzyka" ,Music Box Dance
+#EXTINF:-1 tvg-id="MusicBoxDance.cz@SD" tvg-logo="https://musicboxdance.com/music_box_dance_logo.png" group-title="Muzyka",Music Box Dance
 http://88.212.15.19/live/mb_dance/index.m3u8
 
-#EXTINF:-1 tvg-id="MusicBoxHits.cz@SD" tvg-logo="https://musicboxhits.com/music_box_hits_logo.png" group-title="Muzyka" ,Music Box Hits
+#EXTINF:-1 tvg-id="MusicBoxHits.cz@SD" tvg-logo="https://musicboxhits.com/music_box_hits_logo.png" group-title="Muzyka",Music Box Hits
 http://88.212.15.19/live/mb_hits/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/360_TuneBox_%28red%29.svg" group-title="Muzyka",360 Tunebox
