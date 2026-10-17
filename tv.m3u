@@ -61,8 +61,17 @@ https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd
 #EXTVLCOPT:http-user-agent=Enigma2
 http://91.228.35.249:8001/1:0:19:1C8A:1CE8:71:820000:0:0:0:
 
-#EXTINF:-1 tvg-id="PolsatSport1.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Polsat_Sport_1_2024.svg/500px-Polsat_Sport_1_2024.svg.png" group-title="Polska",14 | Polsat Sport 1
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/loga/ps1.png" tvg-id="PolsatSport1.pl" group-title="Polska",Polsat Sport 1
 http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd
+
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/loga/ps2.png" tvg-id="PolsatSport2.pl" group-title="Polska",Polsat Sport 2
+http://57.128.210.196:8080/195/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/loga/ps3.png" tvg-id="PolsatSport3.pl" group-title="Polska",Polsat Sport 3
+http://57.128.210.196:8080/192/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/loga/psf.png" tvg-id="PolsatSportFight.pl" group-title="Polska",Polsat Sport Fight
+http://57.128.210.196:8080/194/index.m3u8
 
 #EXTINF:-1 tvg-id="PolsatReality.pl" tvg-logo="https://i.imgur.com/yBecqPa.png" group-title="Polska",Polsat Reality
 
@@ -70,7 +79,7 @@ http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd
 http://57.128.231.171:8080/309/index.m3u8
 
 #EXTINF:-1 tvg-id="PolsatSeriale.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png" group-title="Polska",17 | Polsat Seriale
-
+http://57.128.210.196:8080/196/index.m3u8
 #EXTINF:-1 tvg-id="TV4.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png" group-title="Polska",TV4
 https://cdn-s-playnow-live.pluscdn.pl/ch/1502601/309/dash/e25c2c93/live.mpd
 
@@ -188,7 +197,7 @@ https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning
 #EXTINF:-1 group-title="Muzyka" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/That%27s_90s00s_II.png/" tvg-id="Now90s00s.uk@Poland",NOW 90s00s (1080p)
 https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-rakutengb/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RadiowaCzworka.pl" tvg-name="33 | Radiowa Czwórka" tvg-logo="https://i.imgur.com/VAtxF7k.png" group-title="Muzyka",33 | Radiowa Czwórka
+#EXTINF:-1 tvg-id="RadiowaCzworka.pl" tvg-logo="https://i.imgur.com/VAtxF7k.png" group-title="Muzyka",Radiowa Czwórka
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EWTNPoland.pl" tvg-name="34 | EWTN Poland" tvg-logo="https://i.imgur.com/VtKYELf.png" group-title="Polska",34 | EWTN Poland
