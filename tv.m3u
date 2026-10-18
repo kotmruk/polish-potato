@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-pl.xml"
+#EXTM3U url-tvg="https://epg.ovh/pl.xml"
 
 #EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="Polska",TVP1
 #EXTVLCOPT:http-referrer=https://telewizjaonline.pl
