@@ -91,7 +91,9 @@ https://lowa8026-cmyk.github.io/PL/PULSHD.php.m3u8
 https://edge01.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8
 
 #EXTINF:-1 tvg-id="TVS.pl" tvg-logo="https://i.imgur.com/RHwlp35.png" group-title="Polska",TVS
-http://92.114.85.87:8010/play/a00e/index.m3u8
+#EXTVLCOPT:http-referrer=https://embed.megogo.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://meta.vcdn.biz/f4b31cd18e3fcb60695762db59ee8ae0_megogo/live/hls/b/700_2490/u_sid/0/o/157767001/rsid/fe13275b-40ff-4bee-937e-1e43ae40a93c/u_uid/2221239707/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/83.31.83.83*asn/u_srvc/81255/u_did/web_180fc789b98696c5fe026c95443368e2c1e1e5763b29df1808c6974a1f0c7513/type.live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PolsatX.pl" tvg-logo="https://ipla.pluscdn.pl/dituel/cp/hr/hr6sbvohnj11t2dzis5hj5k4jrh58mby.png" group-title="Polska",Polsat X
 #EXTVLCOPT:http-user-agent=Enigma2
