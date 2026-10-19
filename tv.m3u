@@ -54,7 +54,7 @@ https://cdn-s-playnow-live.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd
 #EXTINF:-1 tvg-id="PolsatNews2.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polsat_News_2_2021_gradient.svg/500px-Polsat_News_2_2021_gradient.svg.png" group-title="Polska",Polsat News 2
 https://cdn-s-lb2.pluscdn.pl/lv/1533809/392/dash/3de17d4a/live.mpd
 
-#EXTINF:-1 tvg-id="PolsatNewsPolityka.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/960px-Polsat_News_Polityka_2024_gradient.svg.png" group-title="Polska",13 | Polsat News Polityka
+#EXTINF:-1 tvg-id="PolsatNewsPolityka.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/960px-Polsat_News_Polityka_2024_gradient.svg.png" group-title="Polska",Polsat News Polityka
 https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd
 
 #EXTINF:-1 tvg-id="NewsmaxPolska.pl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQhiWoUDBumWXNIE45AsgoImD4gkPp9neA80qoDvw&s" group-title="Polska",Newsmax Polska
@@ -78,7 +78,7 @@ http://57.128.210.196:8080/194/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/BBC_Brit.png" group-title="Polska",BBC Brit
 http://57.128.231.171:8080/309/index.m3u8
 
-#EXTINF:-1 tvg-id="PolsatSeriale.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png" group-title="Polska",17 | Polsat Seriale
+#EXTINF:-1 tvg-id="PolsatSeriale.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png" group-title="Polska",Polsat Seriale
 http://57.128.210.196:8080/196/index.m3u8
 
 #EXTINF:-1 tvg-id="TV4.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png" group-title="Polska",TV4
@@ -203,10 +203,10 @@ https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-id="RadiowaCzworka.pl" tvg-logo="https://i.imgur.com/VAtxF7k.png" group-title="Muzyka",Radiowa Czwórka
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EWTNPoland.pl" tvg-name="34 | EWTN Poland" tvg-logo="https://i.imgur.com/VtKYELf.png" group-title="Polska",34 | EWTN Poland
+#EXTINF:-1 tvg-id="EWTNPoland.pl" tvg-logo="https://i.imgur.com/VtKYELf.png" group-title="Polska",EWTN Poland
 https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Mango.pl" tvg-name="35 | Mango" tvg-logo="https://images.seeklogo.com/logo-png/47/1/mango-24-logo-png_seeklogo-475506.png" group-title="Polska",35 | Mango
+#EXTINF:-1 tvg-id="Mango.pl" tvg-logo="https://images.seeklogo.com/logo-png/47/1/mango-24-logo-png_seeklogo-475506.png" group-title="Polska",Mango24
 https://lb2.pluscdn.pl/ch/1580235/3496/hls/a149fc4b/masterlist.m3u8
 
 #EXTINF:-1 tvg-id="PolsatViasatExplore.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Polsat-viasat-explore-pl.png/250px-Polsat-viasat-explore-pl.png" group-title="Polska", Polsat Viasat Explore
@@ -221,7 +221,7 @@ http://92.114.85.87:8010/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="ViasatEpicDrama.pl" tvg-logo="https://d-pa.ppstatic.pl/frames/pa-def/d2/80/il20260519_966293161_xsmall.jpg" group-title="Polska",Viasat Epic Drama
 http://92.114.85.87:8018/play/a00d/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Europa",Fairground TV
+#EXTINF:-1 tvg-logo="https://tse2.mm.bing.net/th/id/OIP.uyiIad7v9uFBRbSlfCM7XwAAAA?pid=Api&f=1&ipt=9ceaada67e528f8ce48d90ded5809b619f191b836d12d410f9173012f043f0a9" group-title="Europa",Fairground TV
 https://dbrb49pjoymg4.cloudfront.net/10001/99951590/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951590&ads.xumo_streamId=99951590&ads.channelId=99951590&ads.channelName=FairgroundRevshare&ads.caid=FairgroundRevshare&ads.csid=xumo_desktopweb_FairgroundRevshare_ssai&ads.genre=television&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=4410&ads.xumo_contentName=FairgroundRevshare&ads.xumo_providerId=4410&ads.xumo_providerName=FairgroundRevshare&ads.asnw=&ads.xumo_channelName=FairgroundRevshare&ads._fw_h_x_country=US&ads._fw_ifa_type=dpid&ads._fw_did=e6645180-80db-f297-f378-d8272deb7560&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads._fw_is_lat=1&ads._fw_us_privacy=1YNN&ads._fw_content_category=IAB1-7&ads._fw_content_language=en&ads._fw_content_rating=TV-PG&ads._fw_deviceMake=&ads._fw_device_model=&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appVersion=2.29.0&ads._fw_app_bundle=&ads._fw_app_store_url=&ads.appName=xumo&ads.site_name=XumoPlay&ads.site_page=play.xumo.com
 
 #EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RTSH_1_HD_%282020_Logo%29.svg/330px-RTSH_1_HD_%282020_Logo%29.svg.png",Albania | RTSH 1 (1080p50)
@@ -231,7 +231,7 @@ http://217.73.139.200:5443/play/a00f
 https://dash2.antik.sk/live/test_armenia/playlist.m3u8
 
 #EXTINF:-1 group-title="Oceania" tvg-logo="https://logodix.com/logo/959943.png",Australia | SBS (1080p50)
-http://203.39.27.34:55555/SBS%20ONE%20HD
+https://sbs-live-prod-01.akamaized.net/Content/HLS_AES_TS/Live/geo/channel(sbs)/master.m3u8
 
 #EXTINF:-1 group-title="Europa" tvg-logo="https://tvepg.eu/img/belgium/logo/vrt-1.webp",Belgium | VRT 1 (1080p50)
 http://185.207.34.31:8000/play/21025
@@ -399,7 +399,7 @@ https://tv.intchoson.com/kctv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qJyjSR6.png" tvg-id="BelsatTV.pl" group-title="Europa",Биeлcat TV
 https://iptv.prosto.tv/ch171/index.m3u8
 
-#EXTINF:-1 tvg-id="ABCKids.au@Sydney" tvg-logo="https://logowik.com/content/uploads/images/550_abc_kids_logo.jpg" group-title="Oceania",ABC Kids
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/550_abc_kids_logo.jpg" group-title="Oceania",ABC Kids
 https://c.mjh.nz/abc-kids.m3u8
 
 #EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-logo="https://live-production.wcms.abc-cdn.net.au/7ee6f190de6d7dbb04203e514bfae9ec?impolicy=wcms_crop_resize&cropH=700&cropW=700&xPos=0&yPos=0&width=862&height=862&imformat=generic" group-title="Oceania",ABC News (720p)
@@ -430,9 +430,6 @@ https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8
 #EXTVLCOPT:http-referrer=https://embed.megogo.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 https://meta.vcdn.biz/dab0e9e1db10fcadc4c1a18bd29121c4_megogo/live/hls/b/700_2490_4000/u_sid/0/o/156751011/rsid/b67e3736-66e3-449c-a855-3c618c5a250f/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/5.173.149.85*asn/u_srvc/81255/u_did/web_5aaf9878498706b0b922a7f691015de9d5adfc267a1e1f3d76814e0d04cc3fe6/type.live/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://kotmruk.neocities.org/test.svg",MTV (?)
-http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/7294/index.m3u8
 
 #EXTINF:-1 tvg-id="BTBInfo.pl@SD" tvg-logo="https://btb.j00r.us/img.php?id=87fa06e1418604cb096a0bb3f24e4371&type=Primary&w=400&t=Channel",BTB Info (1080p)
 https://emisja2.btb.j00r.us/iptv/session/4/hls.m3u8
@@ -518,8 +515,11 @@ http://185.227.34.179:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/wiggles/images/e/ec/ABCKids.png/revision/latest?cb=20181223132753" group-title="Oceania" tvg-id="ABCKids.au@Sydney",ABC Kids
 https://c.mjh.nz/abc-kids.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.iview.abc.net.au/thumbs/1920/4_Family_C-1053_iview_3600x2025_new.png" group-title="Oceania" tvg-id="ABCTVPlus.au@Sydney",ABC TV+ / Family
+#EXTINF:-1 tvg-logo="https://cdn.iview.abc.net.au/thumbs/1920/4_Family_C-1053_iview_3600x2025_new.png" group-title="Oceania",ABC TV+ / Family
 https://c.mjh.nz/abc-tv-plus.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="Oceania",ABC TV
+https://c.mjh.nz/abc-nsw.m3u8
 
 #EXTINF:-1 tvg-id="RMFBaby.pl" tvg-logo="https://kuasark.com/files/stations-logos/radio-rmf-baby.png" group-title="Muzyka",RMF Baby
 http://217.74.72.11:8000/rmf_baby
