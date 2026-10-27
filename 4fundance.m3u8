@@ -3,7 +3,6 @@
 #EXT-X-PROGRAM-DATE-TIME:https://r.dcs.redcdn.pl/utc
 #EXT-X-TARGETDURATION:4
 #EXT-X-MEDIA-SEQUENCE:442058109
-#EXT-X-KEY:METHOD=SAMPLE-AES,KEYFORMAT="com.apple.streamingkeydelivery",KEYFORMATVERSIONS="1",URI="skd://skd”
 
 #EXTINF:4,
 http://92.114.85.87:8018/play/a00k/index.m3u8
