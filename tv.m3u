@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.ovh/pl.xml"
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-pl.xml"
 
 #EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="Polska",TVP1
 #EXTVLCOPT:http-referrer=https://telewizjaonline.pl
@@ -295,6 +295,21 @@ http://78.62.9.23:55555/TVP%20Wilno%20HD
 
 #EXTINF:-1 tvg-logo="https://viamedia.tv/wp-content/uploads/2020/01/spi-05.png" group-title="Polska",Fastbox&FUN
 https://dash2.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FashionBox.nl" tvg-logo="https://i.imgur.com/Taqj4yi.png" group-title="Europa",FashionBox
+https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FunBoxUHD.nl" tvg-logo="https://i.imgur.com/9FJct9o.png" group-title="Europa",Funbox UHD
+https://webtvstream.bhtelecom.ba/funbox.m3u8
+
+#EXTINF:-1 tvg-id="DocuBox.nl" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="Europa",DocuBox
+https://dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FightBox.pl" tvg-logo="https://i.imgur.com/mRsnztA.png" group-title="Europa",FightBox 
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
+
+#EXTINF:-1 tvg-id="GameToon.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png" group-title="Europa",GameToon
+https://webtvstream.bhtelecom.ba/gametoon.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/FILMBOX%2B_action.svg/960px-FILMBOX%2B_action.svg.png" group-title="Polska" tvg-id="FILMBOXPlusAction.pl@HD",Filmbox+ Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
