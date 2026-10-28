@@ -175,10 +175,14 @@ http://88.212.15.50/live/mb_hits/index.m3u8
 https://dash2.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NutaTV.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/NutaTVHD-Logo.png" group-title="Muzyka",Nuta TV
-http://92.114.85.87:8010/play/a00j/index.m3u8
+#EXTVLCOPT:http-referrer=https://sweet.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
+https://hls1eu.sweet.tv/stream/kp4tas2t7cyskjg8t24nwviuvje96b6wgchrn49md6ms2ic6xbkrq9zggn4745k6frfxgp22qnshfvb3nueauvtznuxku5w2myrm3hsa6q42c9azt7aze7fy23ijm6uxsqysa2vzzkrtgr2rvwypd8gc7jxekiya2gis8u8f5zc48c4xhi8aqngn782i7aa=.m3u8
 
 #EXTINF:-1 tvg-id="NutaGold.pl" tvg-logo="https://i.imgur.com/BEs160o.png" group-title="Muzyka",Nuta Gold
-http://92.114.85.87:8010/play/a00i/index.m3u8
+#EXTVLCOPT:http-referrer=https://sweet.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
+https://hls5eu.sweet.tv/stream/jds8i5b3ryf5643henxn6yhuhx4fhhkmra94phezykkxqktvp3xrkubj9xcyaiwkikfyfd6bhubc39bw6335nzknpykk7nsck329sqbpgqw66g6qbr34cmukd6ybh5chkvafphrbycsiqq4c52mqdbnhwmzk8zuq6jhheatg4agn6ctmcmqnkpj7v8fv8===.m3u8
 
 #EXTINF:-1 group-title="Muzyka" tvg-id="MusicBoxPolska.pl@Ukraine",Music Box Polska (feed z Ukrainy)
 #EXTVLCOPT:http-referrer=http://live.tvstitch.com/
@@ -186,7 +190,9 @@ http://92.114.85.87:8010/play/a00i/index.m3u8
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMS5keXZ5YXBwLmNvbS9NdXNpYy1Cb3gvdHJhY2tzLXYxYTEvbW9uby50cy5tM3U4P3Rva2VuPWV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqYUdGdWJtVnNYMmxrSWpvMU55d2lZMmhoYm01bGJGOXVZVzFsSWpvaVRYVnphV01nUW05NElpd2lhWEFpT2lJeE56Z3VNVE0yTGpReUxqSXlNQ0lzSW1OdmRXNTBjbmtpT2lKVmEzSmhhVzVsSWl3aWRYTmxjbDlwWkNJNk56UXdOeXdpZFhObGNsOXdhRzl1WlNJNklpc3pPREE1TXpBNU5qYzBNak1pTENKMWMyVnlYM0p2YkdWeklqcGJJbU5zYVdWdWRDSmRMQ0p3Y205bWFXeGxYMmxrSWpvMk5EY3hMQ0p6WlhOemFXOXVYMmxrSWpvaVpEQXdPVFppWmpndE1qTmxOUzAwWldVMkxXSmxNelV0Wmpnd09ETTVaV1k1WkRnMElpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRGd3ZOVE0zTGpNMklDaExTRlJOVEN3Z2JHbHJaU0JIWldOcmJ5a2dRMmh5YjIxbFhDOHhOVEl1TUM0d0xqQWdVMkZtWVhKcFhDODFNemN1TXpZaUxDSmxlSEFpT2pFM09EZ3hPRFV4TmpkOS5nYUo1WGRxTjJ3djY2SnFxYldnX0dGUzY3V3lZVEVOc0JQa3VpcU1sNTVN&master=57
 
 #EXTINF:-1 tvg-id="KinoPolskaMuzyka.pl" tvg-logo="https://i.imgur.com/lE1IlPQ.png" group-title="Muzyka",Kino Polska Muzyka
-http://57.128.231.171:8080/237/index.m3u8
+#EXTVLCOPT:http-referrer=https://sweet.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
+https://hls2eu.sweet.tv/stream/v96zxk8grhafi6cacch84v3fz9rtsg5cr5h8in5dsekxtbwax37phz7cpxe6wr6q5f8g4qhfxcyrkwd7he8cx59wxchmfdvyt3ka5437dyjzk7yddzq9ceiqvsywkhmr26xemu75vkxztpgsrjtv6zmuk88sfqvfw8tdyb3e75q7ypjdw3ujut6peubgfbi=.m3u8
 
 #EXTINF:-1 tvg-id="Muzyka" tvg-logo="https://images.dlawas.info/cache/1a88fa055281e70f14e1582838c9bd89.webp" group-title="Muzyka",VIVA TV RU
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
@@ -312,8 +318,9 @@ https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/FILMBOX%2B_action.svg/960px-FILMBOX%2B_action.svg.png" group-title="Polska" tvg-id="FILMBOXPlusAction.pl@HD",Filmbox+ Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://racitonsen.s.gy/FB_ACTION_PL
+#EXTVLCOPT:http-referrer=https://sweet.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
+https://hls5eu.sweet.tv/stream/ppvx6sw3ffui3y96hqzg5jjabudxhndnwfttzqst8emjsesqhjnfbjy9g4u88ieg7v6jwxencnnyaf67sicnc8fviaq8wv4cb6927jcwgpefgqt4db75c2bvwhagnivxrjkta4yqpjkfq2s9z7rpbczj3zccs3xsyf7kccancka9gee9kzukem77tbhfxy7z.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/FILMBOX%2B_comedy.svg/250px-FILMBOX%2B_comedy.svg.png" group-title="Polska" tvg-id="FILMBOXPlusComedy.pl@Poland",Filmbox+ Comedy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
