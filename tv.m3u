@@ -194,7 +194,7 @@ http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMS5keXZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 https://hls2eu.sweet.tv/stream/v96zxk8grhafi6cacch84v3fz9rtsg5cr5h8in5dsekxtbwax37phz7cpxe6wr6q5f8g4qhfxcyrkwd7he8cx59wxchmfdvyt3ka5437dyjzk7yddzq9ceiqvsywkhmr26xemu75vkxztpgsrjtv6zmuk88sfqvfw8tdyb3e75q7ypjdw3ujut6peubgfbi=.m3u8
 
-#EXTINF:-1 tvg-id="Muzyka" tvg-logo="https://images.dlawas.info/cache/1a88fa055281e70f14e1582838c9bd89.webp" group-title="Muzyka",VIVA TV RU
+#EXTINF:-1 tvg-logo="https://images.dlawas.info/cache/1a88fa055281e70f14e1582838c9bd89.webp" group-title="Muzyka",VIVA TV
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
 
 #EXTINF:-1 group-title="Muzyka" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0c/That%27s_70s_2.svg" tvg-id="Now70s.uk@Poland",NOW 70s (720p)
