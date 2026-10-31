@@ -209,6 +209,9 @@ https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-id="RadiowaCzworka.pl" tvg-logo="https://i.imgur.com/VAtxF7k.png" group-title="Muzyka",Radiowa Czwórka
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://kotmruk.github.io/polish-potato/loga/btbradio.png",BTB Radio
+https://btb.j00r.us/api-stream?proxy_url=NruFCmK2f8PkSQdPl9q4DnuiqgzLgtCx6ahVtu_1FV3Tj5CujN4KHrOtw4aq2nN_05weLgOIWxONQ0wycsAnq7eCCs2qz_lHdoWgYbP2H81dmyQKATybGrMbGjXWQvjOnaoB_qp_C0onEr5reeJ-briD02gTBgsBoCT5jZzmiX4T63iIs8QG8BMLm4KbO-GlpVSHw5fO8dqx4nAh0-xWChSC_A-46jXqwzWaweXgBEbbqQREOuytWybtXqQt61htodbeIGrDpyDomIFSzRbT9HXiSGy7fm09ACfG11A05qtGS2vEED6nWBeC3brKxVTb1Xg159ROM4grV44E_Nf4pV1bG_ZSmp7EDAzmbMj1oedm_NS3aTmhq9aGbVuSjZe6iTRjnRm-rv1l0b9T4w3u_SfB7Hv4sl2cGWU-DRp8fwYVMUlXvSnb_At81YsO2DJzVQerAQ0xNKVl_vaSycuVoOTA-cOsDymoSbKmByKzW1m7eDW57i9E4NGI64MUd2wHlo_4ZtyOoBS7GLSwzJQT0aQgwKH12R2DWzQ0r-I
+
 #EXTINF:-1 tvg-id="EWTNPoland.pl" tvg-logo="https://i.imgur.com/VtKYELf.png" group-title="Polska",EWTN Poland
 https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8
 
