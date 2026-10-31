@@ -246,7 +246,10 @@ http://185.207.34.31:8000/play/21025
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.m3u8
 
 #EXTINF:-1 group-title="Europa" tvg-logo="https://cybc-live-c0d88c0c0329463880899f538858-629d3a6.aldryn-media.com/images/new_rik-sat-logo.original.png",Cyprus | RIK Sat (720p)
-https://restreamer.qzz.io/memfs/76cc2980-fce0-4aa2-99fd-8b153b846628.m3u88
+https://restreamer.qzz.io/memfs/76cc2980-fce0-4aa2-99fd-8b153b846628.m3u8
+
+#EXTINF:-1 tvg-id="CNNPrimaNews.cz" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/CNN_Prima_News_SVG_Logo.svg/500px-CNN_Prima_News_SVG_Logo.svg.png" group-title="Europa",CNN Prima News
+http://88.212.15.50/live/test_cnn_pirma_news/playlist.m3u8
 
 #EXTINF:-1 group-title="Europa" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/France-2-Logo.png",France 2 (720p50)
 https://raw.githubusercontent.com/schumijo/iptv/main/playlists/francetv/france2.m3u8
@@ -275,26 +278,11 @@ https://restreamer.qzz.io/memfs/76e69efe-e58b-43a1-81cd-bcda6bc40aa3.m3u8
 #EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/NPO_1_logo_2014.svg/500px-NPO_1_logo_2014.svg.png",Netherlands | NPO 1 (1080p)
 http://185.207.34.31:8000/play/21029
 
-#EXTINF:-1 group-title="Europa" tvg-id="BNRNieuwsradio.nl@SD",BNR Nieuwsradio (720p) [Geo-blocked]
+#EXTINF:-1 group-title="Europa",BNR Nieuwsradio (720p)
 https://bnr-cache-cdp.triple-it.nl/studio/index.m3u8
 
 #EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/RTS1_logo.svg/500px-RTS1_logo.svg.png",Serbia | RTS 1 (1080p)
 http://webtvstream.bhtelecom.ba/rts1.m3u8
-
-#EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RTS_1_logo.svg/500px-RTS_1_logo.svg.png",Switzerland | RTS 1 (1080p50)
-https://netplus.zappr.stream/rts1hd.m3u8
-
-#EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RTS_1_logo.svg/500px-RTS_1_logo.svg.png",Switzerland | RTS 2 (1080p50)
-https://netplus.zappr.stream/rts2hd.m3u8
-
-#EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RTS_1_logo.svg/500px-RTS_1_logo.svg.png",Switzerland | SRF 1 (1080p50)
-https://netplus.zappr.stream/srf1hd.m3u8
-
-#EXTINF:-1 group-title="Europa" tvg-id="RTSInfo.ch@SD",RTS Info (1080p)
-https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KCPHba2.png" tvg-id="SRF1.ch" group-title="Europa",SRF 1
-http://51.91.73.99:25461/sweden/PM66f7Y43H/25849
 
 #EXTINF:-1 tvg-id="TVPWilno.pl" tvg-logo="https://duckduckgo.com/i/bb26032ab8f760bf.png" group-title="Europa",TVP Wilno
 http://78.62.9.23:55555/TVP%20Wilno%20HD
@@ -378,15 +366,6 @@ https://srv1.pxfy.dev/?u=DCe0C-WBAOBxDocMHvw8XqCU85Cr5bJqGqnkk97jCF6IzOmkLQOX90d
 
 #EXTINF:-1 tvg-id="kidsstation.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-163-400x400.png" group-title="Japonia",Kids Station TV
 https://naori-test.netgenx.site/pxx.php?shk_cid=cs07
-
-#EXTINF:-1 group-title="Europa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Rai_1_-_Logo_2016.svg",Rai 1 (1080p)
-https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/99/Rai_2_-_Logo_2016.svg" group-title="Europa",Rai 2
-https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Rai_3_-_Logo_2016.svg/500px-Rai_3_-_Logo_2016.svg.png" group-title="Europa",Rai 3
-https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e5/Suspilne_Kultura_%282022%2C_icon%29.svg/revision/latest?cb=20220524135706&path-prefix=es" group-title="Europa",Ukraine | Suspilne Kultura
 #EXTVLCOPT:http-user-agent=curl/8.18.0
@@ -481,7 +460,7 @@ https://cdn.telecloud.tv/CH16713/mono.m3u8
 http://57.128.231.171:8080/231/index.m3u8
 
 #EXTINF:-1 tvg-id="ducktv.sk" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Duck_TV_Logo.webp/250px-Duck_TV_Logo.webp" group-title="Dla dzieci",DuckTV Europe
-https://mmm-dk.otteravision.com/DexaYJdJXkLqFxTK_DuckTVHDSAMS/DuckTVHDSAMS.stream/playlist.m3u8
+https://dash3.antik.sk/live/duck_tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx19gJU0sXxNTxNGlg95tUE7a06uPBvbE5V_qpgF0KfQ&s=10" group-title="Dla dzieci" tvg-id="DisneyXD.pl@SD",Disney XD
 http://185.227.34.179:8080/disney-xd/index.m3u8
