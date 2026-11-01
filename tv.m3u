@@ -85,7 +85,7 @@ http://57.128.210.196:8080/196/index.m3u8
 https://cdn-s-playnow-live.pluscdn.pl/ch/1502601/309/dash/e25c2c93/live.mpd
 
 #EXTINF:-1 tvg-id="PulsTV@HD.pl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8oPlm28zs9_vZdPsh9EJQlnValxK7a3_mwmvl1pmN3eIBYk3hz6MrGg&s=10" group-title="Polska",Puls TV
-https://lowa8026-cmyk.github.io/PL/PULSHD.php.m3u8
+https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8
 
 #EXTINF:-1 tvg-id="Puls2.pl" tvg-logo="https://i.imgur.com/EOnzPiZ.png" group-title="Polska",Puls 2
 https://edge01.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8
@@ -94,6 +94,11 @@ https://edge01.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8
 #EXTVLCOPT:http-referrer=https://embed.megogo.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 https://meta.vcdn.biz/f4b31cd18e3fcb60695762db59ee8ae0_megogo/live/hls/b/700_2490/u_sid/0/o/157767001/rsid/fe13275b-40ff-4bee-937e-1e43ae40a93c/u_uid/2221239707/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/83.31.83.83*asn/u_srvc/81255/u_did/web_180fc789b98696c5fe026c95443368e2c1e1e5763b29df1808c6974a1f0c7513/type.live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KanalZero.pl" tvg-logo="https://tse1.mm.bing.net/th/id/OIP.qEBVcRRspfy3RtJ40iq-jgHaHa?r=0&pid=Api&f=1&ipt=7509c3148e95854c84b35ffb980a3c17837af733c47c139c" group-title="Polska",Kanał Zero
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://hls5eu.sweet.tv/stream/twe7dv3v385z8xwvmaw48ntvyb6vdpt8wipazvapy9yrcdq3gzw6bqf26vw2hrjidecszw2errhzap45rz5pyp6ymhwe4t3errxhvw2ahs5ej9qk97rxrgrfe4uapqy2sf7j6zwvuejdfnkmf2b5yi77va8zcz2ntxi2du3i37gen2vfvnd5sn645uhm5qq55nhdqee5.m3u8
+https://hls5eu.sweet.tv/stream/twe7dv3v385z8xwvmaw48ntvyb6vdpt8wipazvapy9yrcdq3gzw6bqf26vw2hrjidecszw2errhzap45rz5pyp6ymhwe4t3errxhvw2ahs5ej9qk97rxrgrfe4uapqy2sf7j6zwvuejdfnkmf2b5yi77va8zcz2ntxi2du3i37gen2vfvnd5sn645uhm5qq55nhdqee5.m3u8
 
 #EXTINF:-1 tvg-id="PolsatX.pl" tvg-logo="https://ipla.pluscdn.pl/dituel/cp/hr/hr6sbvohnj11t2dzis5hj5k4jrh58mby.png" group-title="Polska",Polsat X
 #EXTVLCOPT:http-user-agent=Enigma2
