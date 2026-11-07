@@ -1,2 +1,2 @@
-Neocities zrobiło psikusa i zablokowało pliki m3u więc no dupa
+Neocities zrobiło psikusa i zbanowało mnie
 GitHub dzięki
