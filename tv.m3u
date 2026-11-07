@@ -101,8 +101,7 @@ https://meta.vcdn.biz/f4b31cd18e3fcb60695762db59ee8ae0_megogo/live/hls/b/700_249
 https://hls5eu.sweet.tv/stream/twe7dv3v385z8xwvmaw48ntvyb6vdpt8wipazvapy9yrcdq3gzw6bqf26vw2hrjidecszw2errhzap45rz5pyp6ymhwe4t3errxhvw2ahs5ej9qk97rxrgrfe4uapqy2sf7j6zwvuejdfnkmf2b5yi77va8zcz2ntxi2du3i37gen2vfvnd5sn645uhm5qq55nhdqee5.m3u8
 
 #EXTINF:-1 tvg-id="PolsatX.pl" tvg-logo="https://ipla.pluscdn.pl/dituel/cp/hr/hr6sbvohnj11t2dzis5hj5k4jrh58mby.png" group-title="Polska",Polsat X
-#EXTVLCOPT:http-user-agent=Enigma2
-http://91.228.35.249:8001/1:0:1:1C8B:1CE8:71:820000:0:0:0:
+https://kotmruk.github.io/polish-potato/polsatx.m3u8
 
 #EXTINF:-1 tvg-id="FXComedy.pl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwocfNhXAdjnPL8X9ubjnb_O6xbgrjNKhipDeC435yw&s=10" group-title="Polska",FX Comedy
 http://57.128.231.171:8080/250/index.m3u8
