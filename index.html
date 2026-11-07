@@ -1,0 +1,283 @@
+from pathlib import Path
+import zipfile, json, re, os, textwrap
+
+root = Path("/mnt/data/cz-portal")
+root.mkdir(exist_ok=True)
+
+html = r'''<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a32">
+<title>Cyfrowy Żulsat — telewizja dla ludu</title>
+<meta name="description" content="Cyfrowy Żulsat: ŻabTV, archiwum i ŻabSearch.">
+<style>
+:root{--navy:#101a32;--navy2:#182747;--blue:#3049d8;--cyan:#4ed6dc;--lime:#c7f34a;--orange:#ff812b;--red:#ef263b;--paper:#f4f0dc;--ink:#111827;--muted:#b8c4d7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0a1020;color:#f8f5e9;font:15px/1.5 Arial,Helvetica,sans-serif}
+a{color:var(--lime)}button,input{font:inherit}button,a{ -webkit-tap-highlight-color:transparent}
+.topline{height:7px;background:linear-gradient(90deg,var(--red) 0 25%,var(--orange) 25% 50%,#ffe600 50% 75%,#22b85a 75%)}
+header{background:var(--navy);border-bottom:4px solid var(--lime);box-shadow:0 5px 0 #0008}
+.head{max-width:1180px;margin:auto;padding:20px 22px 15px;display:flex;align-items:center;gap:18px}
+.logo{width:72px;height:72px;flex:none;border:3px solid var(--lime);border-radius:50%;display:grid;place-items:center;background:var(--red);font-weight:1000;font-size:29px;letter-spacing:-3px;color:#fff;text-shadow:2px 2px #111;box-shadow:5px 5px 0 #000}
+.brand h1{font-size:clamp(26px,4vw,42px);line-height:1;margin:0;text-transform:uppercase;letter-spacing:-1.5px;text-shadow:3px 3px #000}
+.brand p{margin:6px 0 0;color:var(--lime);font-weight:bold;letter-spacing:1.6px;text-transform:uppercase;font-size:11px}
+.headright{margin-left:auto;text-align:right;color:var(--muted);font-size:12px}
+.signal{display:inline-flex;gap:4px;align-items:end;height:17px;margin-bottom:4px}
+.signal i{display:block;width:5px;background:var(--lime);border:1px solid #52651a}
+.signal i:nth-child(1){height:6px}.signal i:nth-child(2){height:10px}.signal i:nth-child(3){height:14px}.signal i:nth-child(4){height:17px}
+nav{background:#25365b;border-top:1px solid #ffffff22}
+.navinner{max-width:1180px;margin:auto;display:flex;flex-wrap:wrap;padding:0 12px}
+nav button{background:none;border:0;color:white;padding:13px 17px;font-weight:900;text-transform:uppercase;cursor:pointer;border-bottom:3px solid transparent}
+nav button:hover,nav button.active{background:#3049d8;border-bottom-color:var(--lime)}
+.ticker{background:var(--lime);color:#17213a;font-weight:900;text-transform:uppercase;white-space:nowrap;overflow:hidden;padding:7px 0;border-bottom:3px solid #748d1e}
+.ticker span{display:inline-block;padding-left:100%;animation:marquee 25s linear infinite}
+@keyframes marquee{to{transform:translateX(-100%)}}
+main{max-width:1180px;margin:22px auto;padding:0 18px 45px}
+.page{display:none}.page.active{display:block}
+.hero{background:linear-gradient(110deg,#233b70,#172541 65%,#3049d8);border:2px solid #6179ca;box-shadow:7px 7px 0 #000;padding:24px;display:grid;grid-template-columns:1.5fr 1fr;gap:20px;align-items:center}
+.eyebrow{color:var(--lime);font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase}
+.hero h2{font-size:clamp(27px,4vw,43px);line-height:1.03;margin:8px 0 12px;text-transform:uppercase}
+.hero p{max-width:620px;color:#dce5f6;margin:0}
+.stamp{justify-self:end;transform:rotate(5deg);border:4px double var(--lime);color:var(--lime);padding:13px 18px;font-size:19px;font-weight:1000;text-align:center;text-transform:uppercase;max-width:220px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;padding:11px 15px;text-decoration:none;font-weight:900;text-transform:uppercase;cursor:pointer;box-shadow:3px 3px 0 #000}
+.btn.primary{background:var(--lime);color:#17213a}.btn.secondary{background:var(--orange);color:#201629}.btn.dark{background:#3049d8;color:white}.btn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:27px 0 12px;border-bottom:2px solid var(--lime);padding-bottom:7px}
+.sectionhead h2{margin:0;font-size:22px;text-transform:uppercase}.sectionhead small{color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{min-height:145px;padding:17px;background:var(--navy2);border:1px solid #3d5689;box-shadow:4px 4px 0 #000;position:relative;overflow:hidden}
+.tile:after{content:"";position:absolute;width:70px;height:70px;border:10px solid #ffffff0a;border-radius:50%;right:-15px;bottom:-24px}
+.tile .ico{font-size:30px}.tile h3{margin:6px 0 3px;font-size:19px;text-transform:uppercase}.tile p{margin:0;color:#c4cfe1;font-size:13px}
+.tile button{margin-top:12px}
+.notice{background:#302d20;border-left:6px solid var(--orange);padding:13px 15px;color:#f9e9c2;margin-top:16px}
+.searchbox{background:var(--blue);padding:16px;display:flex;gap:8px;max-width:680px;box-shadow:5px 5px 0 #000}
+.searchbox input{flex:1;min-width:0;padding:12px;border:2px solid #111;background:#080d18;color:white}
+.searchbox button{background:var(--lime);border:0;padding:0 18px;font-weight:900;cursor:pointer}
+.tv-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,.8fr);gap:16px}
+.panel{background:var(--navy2);border:1px solid #3b5484;padding:15px;box-shadow:4px 4px 0 #000}
+.panel h3{margin:0 0 12px;text-transform:uppercase;font-size:17px}
+.playerwrap{background:#02040a;border:3px solid #53658b;aspect-ratio:16/9;display:grid;place-items:center;position:relative}
+video{width:100%;height:100%;background:#000}
+.playerhint{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:#d8e0f1;pointer-events:none}
+.playerhint strong{display:block;color:var(--lime);font-size:20px;text-transform:uppercase}
+.playerstatus{font-size:12px;color:var(--muted);margin-top:8px;min-height:18px}
+.channeltools{display:flex;gap:8px;margin:12px 0}
+.channeltools input,.channeltools select{min-width:0;flex:1;background:#0d1730;border:1px solid #50638e;color:white;padding:9px}
+.channel-list{max-height:430px;overflow:auto;display:grid;gap:5px}
+.channel{display:flex;align-items:center;gap:9px;width:100%;text-align:left;background:#111e3b;border:1px solid #344a78;color:white;padding:9px;cursor:pointer}
+.channel:hover,.channel.selected{background:#3049d8;border-color:var(--lime)}
+.channel .num{color:var(--lime);font-weight:900;width:25px}.channel small{display:block;color:#c2cde0;font-size:11px}
+.linklist{display:grid;gap:9px}.linkrow{background:#14213e;border:1px solid #3c5482;padding:12px;display:flex;justify-content:space-between;align-items:center;gap:10px}.linkrow strong{display:block}.linkrow small{color:var(--muted)}
+.statuspill{font-size:10px;color:#18213a;background:var(--lime);padding:3px 6px;font-weight:900}
+footer{background:#080d18;border-top:3px solid var(--lime);padding:20px;text-align:center;color:#9eacc4;font-size:12px}
+footer strong{color:var(--lime)}
+@media(max-width:760px){.head{padding:15px}.headright{display:none}.hero{grid-template-columns:1fr}.stamp{justify-self:start}.tiles{grid-template-columns:1fr 1fr}.tv-layout{grid-template-columns:1fr}.navinner{padding:0 4px}nav button{padding:11px 10px;font-size:12px}}
+@media(max-width:480px){.tiles{grid-template-columns:1fr}.logo{width:56px;height:56px;font-size:23px}.brand h1{font-size:25px}.hero{padding:17px}.searchbox{flex-wrap:wrap}.searchbox input{flex-basis:100%}}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+ <div class="head">
+  <div class="logo" aria-label="Logo Cyfrowego Żulsatu">CŻ</div>
+  <div class="brand"><h1>Cyfrowy Żulsat</h1><p>Telewizja • radio • rozrywka • byle działało</p></div>
+  <div class="headright"><div class="signal"><i></i><i></i><i></i><i></i></div><br>SYGNAŁ: JAKOŚ TAKI<br>ODBIÓR: CYFROWY</div>
+ </div>
+ <nav><div class="navinner">
+  <button class="active" data-page="home">🏚 Start</button>
+  <button data-page="tv">📡 ŻabTV</button>
+  <button data-page="archive">💾 Archiwum</button>
+  <button data-page="search">🐸 ŻabSearch</button>
+  <button data-page="about">ℹ O CŻ</button>
+ </div></nav>
+</header>
+<div class="ticker"><span>!!! KOMUNIKAT CŻ: STRONA PRZENIESIONA Z NEOCITIES !!! &nbsp; • &nbsp; ZAPISUJ PLIKI LOKALNIE, BO INTERNET NIE JEST WIECZNY &nbsp; • &nbsp; ŻABTV NADAJE Z GITHUBA &nbsp; • &nbsp; WITAMY W CYFROWYM ŻULSACIE !!!</span></div>
+<main>
+<section class="page active" id="home">
+ <div class="hero">
+  <div><div class="eyebrow">Oficjalny portal CŻ • wydanie ratunkowe</div><h2>Telewizja, której nie stać na satelitę.</h2><p>Witamy w Cyfrowym Żulsacie! Stacja przeniesiona do internetu po eksmisji z Neocities. Sygnał może czasem chrupnąć, ale nadajemy dalej.</p>
+   <div class="actions"><button class="btn primary" data-go="tv">▶ Oglądaj ŻabTV</button><button class="btn secondary" data-go="archive">Otwórz archiwum</button></div>
+  </div>
+  <div class="stamp">100% cyfrowo<br>0% gwarancji<br>∞ kombinowania</div>
+ </div>
+ <div class="sectionhead"><h2>Co dziś odbieramy?</h2><small>Wybierz usługę</small></div>
+ <div class="tiles">
+  <article class="tile"><div class="ico">📡</div><h3>ŻabTV</h3><p>Telewizja internetowa CŻ. Lista kanałów pobierana bezpośrednio z GitHuba.</p><button class="btn primary" data-go="tv">Przejdź do TV</button></article>
+  <article class="tile"><div class="ico">🎵</div><h3>Muzycznia</h3><p>Archiwum piosenek i nagrań. Pliki pozostają w zewnętrznym archiwum.</p><button class="btn secondary" data-go="archive">Zobacz archiwum</button></article>
+  <article class="tile"><div class="ico">📢</div><h3>Reklamownia</h3><p>Reklamy, dżingle i materiały promocyjne CŻ.</p><button class="btn dark" data-go="archive">Do archiwum</button></article>
+ </div>
+ <div class="notice"><strong>⚠ WAŻNE:</strong> Neocities już nie hostuje portalu. Aktualna lista telewizyjna jest przechowywana w repozytorium GitHub. Róbcie kopie zapasowe!</div>
+</section>
+
+<section class="page" id="tv">
+ <div class="sectionhead"><h2>📡 ŻabTV — centrum nadawcze</h2><small>Odbiór internetowy</small></div>
+ <div class="tv-layout">
+  <div class="panel">
+   <h3 id="nowPlaying">Ekran odbiornika — brak kanału</h3>
+   <div class="playerwrap">
+    <video id="video" controls playsinline></video>
+    <div class="playerhint" id="playerHint"><div><strong>ŻABTV / TEST SYGNAŁU</strong>Wybierz kanał z listy po prawej.</div></div>
+   </div>
+   <div class="playerstatus" id="playerStatus" role="status">Lista kanałów nie została jeszcze pobrana.</div>
+   <div class="actions">
+    <a class="btn primary" href="https://raw.githubusercontent.com/kotmruk/polish-potato/main/tv.m3u" target="_blank" rel="noopener">Pobierz M3U</a>
+    <button class="btn secondary" id="reloadPlaylist">Odśwież listę</button>
+   </div>
+   <p style="color:#aebbd1;font-size:12px">Uwaga: część streamów może wymagać zewnętrznego odtwarzacza lub może być niedostępna w przeglądarce (CORS, DRM, geo-blokada albo wygaśnięty adres).</p>
+  </div>
+  <aside class="panel">
+   <h3>Lista kanałów</h3>
+   <div class="channeltools"><input id="channelFilter" placeholder="Szukaj kanału..." aria-label="Szukaj kanału"><select id="groupFilter" aria-label="Grupa"><option value="">Wszystkie grupy</option></select></div>
+   <div class="channel-list" id="channels"><p style="color:#b8c4d7">Ładowanie listy z GitHuba...</p></div>
+  </aside>
+ </div>
+</section>
+
+<section class="page" id="archive">
+ <div class="sectionhead"><h2>💾 Archiwum CŻ</h2><small>Pliki poza Neocities</small></div>
+ <div class="tiles">
+  <article class="tile"><div class="ico">🎼</div><h3>Muzycznia</h3><p>Piosenki i nagrania przechowywane na MediaFire. Link do konkretnego folderu można podpiąć w konfiguracji.</p><span class="statuspill">MEDIAFIRE — LINK DO UZUPEŁNIENIA</span></article>
+  <article class="tile"><div class="ico">📣</div><h3>Reklamownia</h3><p>Reklamy i materiały promocyjne CŻ. Nie są częścią hostingu strony.</p><span class="statuspill">MEDIAFIRE — LINK DO UZUPEŁNIENIA</span></article>
+  <article class="tile"><div class="ico">📺</div><h3>Listy telewizyjne</h3><p>Aktualna i starsza lista kanałów oraz osobne strumienie.</p><div class="actions"><a class="btn primary" href="https://raw.githubusercontent.com/kotmruk/polish-potato/main/tv.m3u" target="_blank" rel="noopener">tv.m3u</a><a class="btn dark" href="https://github.com/kotmruk/polish-potato" target="_blank" rel="noopener">Repozytorium</a></div></article>
+ </div>
+ <div class="sectionhead"><h2>Stare częstotliwości</h2><small>Pliki zachowane w GitHub</small></div>
+ <div class="linklist">
+  <div class="linkrow"><div><strong>Stara lista M3U</strong><small>stare.m3u</small></div><a class="btn dark" href="https://raw.githubusercontent.com/kotmruk/polish-potato/main/stare.m3u" target="_blank" rel="noopener">Otwórz</a></div>
+  <div class="linkrow"><div><strong>4Fun Dance</strong><small>4fundance.m3u8</small></div><a class="btn dark" href="https://raw.githubusercontent.com/kotmruk/polish-potato/main/4fundance.m3u8" target="_blank" rel="noopener">Otwórz</a></div>
+  <div class="linkrow"><div><strong>Teletoon</strong><small>teletoon.m3u8</small></div><a class="btn dark" href="https://raw.githubusercontent.com/kotmruk/polish-potato/main/teletoon.m3u8" target="_blank" rel="noopener">Otwórz</a></div>
+ </div>
+ <div class="notice">Nie wpisuję fikcyjnych adresów MediaFire. Gdy podasz prawdziwe linki do folderów z piosenkami i reklamami, przyciski będą prowadzić bezpośrednio do nich.</div>
+</section>
+
+<section class="page" id="search">
+ <div class="sectionhead"><h2>🐸 ŻabSearch</h2><small>Wyszukiwarka CŻ</small></div>
+ <div class="panel">
+  <h3>Co żaba ma znaleźć?</h3>
+  <form class="searchbox" id="frogForm"><input id="frogQuery" type="search" placeholder="Wpisz szukaną frazę..." required><button type="submit">SZUKAJ »</button></form>
+  <p style="color:#b8c4d7">ŻabSearch korzysta z FrogFind — wyszukiwarki przyjaznej starszym urządzeniom.</p>
+  <a href="https://frogfind.com/" target="_blank" rel="noopener">Otwórz FrogFind bezpośrednio</a>
+ </div>
+</section>
+
+<section class="page" id="about">
+ <div class="sectionhead"><h2>ℹ O Cyfrowym Żulsacie</h2><small>Komunikat zarządu</small></div>
+ <div class="panel">
+  <h3>Nie poddajemy się po 404.</h3>
+  <p>Cyfrowy Żulsat to amatorski projekt telewizyjno-archiwalny. Po utracie oryginalnej strony na Neocities portal przenosi się na GitHuba.</p>
+  <p>Strona jest niezależna od Neocities. Lista M3U jest ładowana z repozytorium <a href="https://github.com/kotmruk/polish-potato" target="_blank" rel="noopener">kotmruk/polish-potato</a>.</p>
+  <div class="notice"><strong>Apel CŻ:</strong> Zapisujcie strony, playlisty, zdjęcia i pliki. „Co jest w internecie, nie znika” — właśnie widzieliśmy, ile to warte.</div>
+ </div>
+</section>
+</main>
+<footer><strong>CYFROWY ŻULSAT</strong> • nadajemy, póki prąd jest • portal niezależny • wydanie ratunkowe 2.0</footer>
+
+<script>
+const PLAYLIST_URL = "https://raw.githubusercontent.com/kotmruk/polish-potato/main/tv.m3u";
+const video = document.getElementById("video");
+const hint = document.getElementById("playerHint");
+const statusEl = document.getElementById("playerStatus");
+const channelBox = document.getElementById("channels");
+let allChannels = [], hls = null, dash = null, currentButton = null;
+
+function showPage(id){
+ document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id===id));
+ document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.page===id));
+ window.scrollTo({top:0,behavior:"smooth"});
+ if(id==="tv" && !allChannels.length) loadPlaylist();
+}
+document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
+document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.go)));
+document.getElementById("frogForm").addEventListener("submit",e=>{
+ e.preventDefault(); const q=document.getElementById("frogQuery").value.trim();
+ if(q) location.href="https://frogfind.com/?q="+encodeURIComponent(q);
+});
+
+function parseM3U(text){
+ const lines=text.replace(/^\uFEFF/,"").split(/\r?\n/); const out=[]; let meta=null;
+ for(const raw of lines){
+  const line=raw.trim(); if(!line) continue;
+  if(line.startsWith("#EXTINF:")){
+   const comma=line.indexOf(","); const attrs=comma>=0?line.slice(0,comma):line;
+   const name=comma>=0?line.slice(comma+1).trim():"Nieznany kanał";
+   const get=(key)=>{const m=attrs.match(new RegExp(key+'="([^"]*)"'));return m?m[1]:"";};
+   meta={name,group:get("group-title")||"Pozostałe",logo:get("tvg-logo"),opts:[]};
+  } else if(line.startsWith("#EXTVLCOPT:")) { if(meta) meta.opts.push(line); }
+  else if(line.startsWith("#")) { /* ignore M3U directives */ }
+  else if(meta){meta.url=line;out.push(meta);meta=null;}
+ }
+ return out;
+}
+function renderChannels(){
+ const q=document.getElementById("channelFilter").value.toLowerCase();
+ const group=document.getElementById("groupFilter").value;
+ const filtered=allChannels.filter(c=>c.name.toLowerCase().includes(q)&&(!group||c.group===group));
+ channelBox.innerHTML="";
+ if(!filtered.length){channelBox.innerHTML="<p style='color:#b8c4d7'>Brak kanałów dla tego filtra.</p>";return;}
+ filtered.forEach((c,i)=>{
+  const b=document.createElement("button");b.className="channel";
+  b.innerHTML="<span class='num'>"+String(i+1).padStart(2,"0")+"</span><span>"+escapeHtml(c.name)+"<small>"+escapeHtml(c.group)+"</small></span>";
+  b.addEventListener("click",()=>playChannel(c,b));channelBox.appendChild(b);
+ });
+}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+async function loadPlaylist(){
+ statusEl.textContent="Pobieranie listy kanałów z GitHuba...";
+ channelBox.innerHTML="<p style='color:#b8c4d7'>Pobieranie...</p>";
+ try{
+  const res=await fetch(PLAYLIST_URL,{cache:"no-store"}); if(!res.ok)throw new Error("HTTP "+res.status);
+  const text=await res.text(); allChannels=parseM3U(text);
+  const groups=[...new Set(allChannels.map(c=>c.group))].sort();
+  const sel=document.getElementById("groupFilter");sel.innerHTML='<option value="">Wszystkie grupy</option>'+groups.map(g=>'<option value="'+escapeHtml(g)+'">'+escapeHtml(g)+'</option>').join("");
+  renderChannels();statusEl.textContent="Załadowano "+allChannels.length+" pozycji. Wybierz kanał.";
+ }catch(err){channelBox.innerHTML="<p style='color:#ff9b9b'>Nie udało się pobrać listy. "+escapeHtml(err.message)+"</p>";statusEl.textContent="Błąd pobierania. Możesz pobrać M3U i otworzyć w VLC/Kodi.";}
+}
+async function playChannel(c,button){
+ if(currentButton)currentButton.classList.remove("selected");currentButton=button;button.classList.add("selected");
+ document.getElementById("nowPlaying").textContent="Odbierasz: "+c.name;
+ hint.style.display="none";statusEl.textContent="Łączenie z nadajnikiem: "+c.name;
+ if(hls){hls.destroy();hls=null;}if(dash){dash.reset();dash=null;}
+ video.pause();video.removeAttribute("src");video.load();
+ const url=c.url;const isDash=/\.mpd($|\?)/i.test(url);
+ try{
+  if(isDash){
+   if(window.dashjs){dash=dashjs.MediaPlayer().create();dash.initialize(video,url,true);statusEl.textContent="Uruchomiono odtwarzacz DASH. Jeśli ekran pozostaje czarny, strumień może wymagać DRM lub autoryzacji.";}
+   else throw new Error("Biblioteka DASH niedostępna");
+  }else if(window.Hls&&Hls.isSupported()){
+   hls=new Hls({enableWorker:true});hls.loadSource(url);hls.attachMedia(video);
+   hls.on(Hls.Events.MANIFEST_PARSED,()=>{statusEl.textContent="Sygnał odebrany. Uruchamiam kanał.";video.play().catch(()=>statusEl.textContent="Kliknij ▶ w odtwarzaczu, aby rozpocząć.");});
+   hls.on(Hls.Events.ERROR,(ev,data)=>{if(data.fatal)statusEl.textContent="Błąd strumienia: "+data.type+". Kanał może blokować odtwarzanie w przeglądarce.";});
+  }else{video.src=url;statusEl.textContent="Próba natywnego odtwarzania strumienia.";}
+ }catch(err){statusEl.textContent="Nie udało się uruchomić kanału: "+err.message;}
+}
+document.getElementById("reloadPlaylist").addEventListener("click",loadPlaylist);
+document.getElementById("channelFilter").addEventListener("input",renderChannels);
+document.getElementById("groupFilter").addEventListener("change",renderChannels);
+</script>
+</body>
+</html>
+'''
+(root/"index.html").write_text(html, encoding="utf-8")
+(root/"README.md").write_text("""# Cyfrowy Żulsat 2.0
+
+Statyczny portal do GitHub Pages.
+
+## Funkcje
+- nawigacja między sekcjami bez przeładowania strony
+- ŻabTV pobiera `tv.m3u` z `kotmruk/polish-potato`, parsuje kanały i umożliwia filtrowanie
+- odtwarzanie HLS przez hls.js i DASH przez dash.js (zależne od CORS/DRM/dostępności źródła)
+- bezpośrednie linki do aktualnej i archiwalnych playlist
+- ŻabSearch przekazuje zapytania do FrogFind
+
+## Publikacja
+Wgraj `index.html` do głównego katalogu repozytorium i włącz GitHub Pages dla gałęzi `main`, katalog `/ (root)`.
+
+## Do uzupełnienia
+Nie znaleziono w dostępnych materiałach dokładnych linków MediaFire do folderu piosenek i reklam. Nie wpisano fikcyjnych adresów.
+""", encoding="utf-8")
+zip_path=Path("/mnt/data/cyfrowy-zulsat-2.0.zip")
+with zipfile.ZipFile(zip_path,"w",zipfile.ZIP_DEFLATED) as z:
+    for f in root.iterdir(): z.write(f,arcname=f.name)
+print("Created", zip_path, "HTML bytes:", (root/"index.html").stat().st_size)
