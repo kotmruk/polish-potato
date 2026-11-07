@@ -481,8 +481,8 @@ http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 #EXTINF:-1 group-title="Dla dzieci" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" tvg-id="DisneyJunior.pl",Disney Junior
 http://57.128.231.171:8080/277/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Cartoonito_-_Logo_2021.svg" tvg-id="CartoonitoCEE.uk" group-title="Dla dzieci",Cartoonito
-http://57.128.231.171:8080/303/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Cartoonito_-_Logo_2021.svg" tvg-id="CartoonitoCEE.uk" group-title="Dla dzieci",Cartoonito Asia
+https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.pl" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/250px-Cartoon_Network_2010_logo.svg.png" group-title="Dla dzieci",Cartoon Network
 http://57.128.231.171:8080/293/index.m3u8
