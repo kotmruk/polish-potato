@@ -42,8 +42,9 @@ https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8
 #EXTINF:-1 tvg-id="NowaTV.pl" tvg-logo="https://i.postimg.cc/kXVHvN9W/NOWA-TV.png" group-title="Polska",Nowa TV
 http://92.114.85.87:8018/play/a00j/index.m3u8
 
-#EXTINF:-1 tvg-id="TVPDokument.pl" tvg-logo="" group-title="Polska",TVP Dokument (nd)
-https://tvpi.travny.workers.dev/tvpdokument.m3u8
+#EXTINF:-1 tvg-id="Polsat1.pl" tvg-logo="https://tse1.mm.bing.net/th/id/OIP.KqN3ZuusxK9Uunuq53G_dwHaG3" group-title="Polska",Polsat 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Avast/152.0.0.0
+https://kotmruk.github.io/polish-potato/polsat1.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Polsat_Film_29.webp/960px-Polsat_Film_29.webp" tvg-id="PolsatFilm.pl@SD",Polsat Film (1080p)
 http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6086/index.m3u8
